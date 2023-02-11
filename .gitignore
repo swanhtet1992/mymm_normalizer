@@ -1,0 +1,29 @@
+# ignore files wo extension (posix binaries)
+*
+!*.*
+!*/
+
+# Any path
+*.swp
+*~
+nimcache/
+
+# Windows executables
+*.exe
+*.dll
+
+# VCC compiler and linker artifacts
+*.ilk
+*.pdb
+
+# Editors and IDEs project files and folders
+.vscode
+
+# VCS artifacts
+*.orig
+
+# Test procedure artifacts
+*.nims
+/buildTests
+
+*.out
